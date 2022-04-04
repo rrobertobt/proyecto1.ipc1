@@ -7,5 +7,6 @@ public class Deer extends Pet implements Mammal{
         level = 1;
         xp = 1;
         tier = 4;
+        name = "Ciervo";
     }
 }

@@ -7,5 +7,6 @@ public class Whale extends Pet implements Aquatic{
         level = 1;
         xp = 1;
         tier = 4;
+        name = "Ballena";
     }
 }

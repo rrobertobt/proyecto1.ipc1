@@ -7,5 +7,6 @@ public class Cougar extends Pet implements Mammal, Land{
         level = 1;
         xp = 1;
         tier = 4;
+        name = "Puma";
     }
 }

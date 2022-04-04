@@ -7,5 +7,6 @@ public class Quetzal extends Pet implements Flying, Solitary{
         level = 1;
         xp = 1;
         tier = 7;
+        name = "Quetzal";
     }
 }

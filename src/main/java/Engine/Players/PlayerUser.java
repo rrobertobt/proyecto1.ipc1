@@ -1,10 +1,9 @@
 package Engine.Players;
 import Pets.*;
 
-public class PlayerUser extends Player {
+public class PlayerUser {
 
-    Pet[] playerPets;
-    int round = 1;
+    Pet[] playerPets = new Pet[5];
     int lives = 10;
     int wins = 0;
 
@@ -12,16 +11,8 @@ public class PlayerUser extends Player {
         return playerPets;
     }
 
-    public void setPlayerPets(Pet[] playerPets) {
-        this.playerPets = playerPets;
-    }
-
-    public int getRound() {
-        return round;
-    }
-
-    public void setRound(int round) {
-        this.round = round;
+    public void setPlayerPets(Pet pet, int index) {
+        this.playerPets[index] = pet;
     }
 
     public int getLives() {

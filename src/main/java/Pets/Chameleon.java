@@ -7,5 +7,7 @@ public class Chameleon extends Pet implements Reptile, Solitary{
         level = 1;
         xp = 1;
         tier = 7;
+        name = "Camaleon";
+
     }
 }

@@ -7,5 +7,6 @@ public class Giraffe extends Pet implements Mammal, Land{
         level = 1;
         xp = 1;
         tier = 3;
+        name = "Girafa";
     }
 }

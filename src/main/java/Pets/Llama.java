@@ -7,5 +7,6 @@ public class Llama extends Pet implements Land{
         level = 1;
         xp = 1;
         tier = 4;
+        name = "Llama";
     }
 }

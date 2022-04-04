@@ -7,5 +7,6 @@ public class Ox extends Pet implements Mammal{
         level = 1;
         xp = 1;
         tier = 3;
+        name = "Buey";
     }
 }

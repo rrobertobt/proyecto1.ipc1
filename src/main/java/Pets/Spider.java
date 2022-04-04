@@ -7,6 +7,7 @@ public class Spider extends Pet implements Insect{
         level = 1;
         xp = 1;
         tier = 2;
+        name = "Arana";
 
     }
 }

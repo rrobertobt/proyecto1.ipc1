@@ -7,5 +7,6 @@ public class Elephant extends Pet implements Land, Mammal{
         level = 1;
         xp = 1;
         tier = 2;
+        name = "Elefante";
     }
 }

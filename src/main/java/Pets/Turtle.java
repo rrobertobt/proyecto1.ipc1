@@ -7,5 +7,6 @@ public class Turtle extends Pet implements Reptile{
         level = 1;
         xp = 1;
         tier = 3;
+        name = "Tortuga";
     }
 }

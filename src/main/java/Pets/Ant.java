@@ -8,5 +8,7 @@ public class Ant extends Pet implements Insect, Land{
         level = 1;
         xp = 1;
         tier = 1;
+        name = "Hormiga";
     }
+
 }

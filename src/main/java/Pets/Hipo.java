@@ -7,5 +7,6 @@ public class Hipo extends Pet implements Aquatic, Land{
         level = 1;
         xp = 1;
         tier = 4;
+        name = "Hipopotamo";
     }
 }

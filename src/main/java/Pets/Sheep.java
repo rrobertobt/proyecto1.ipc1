@@ -7,5 +7,6 @@ public class Sheep extends Pet implements Domestic, Land{
         level = 1;
         xp = 1;
         tier = 3;
+        name = "Oveja";
     }
 }

@@ -8,5 +8,6 @@ public class Mosquito extends Pet implements Flying{
         level = 1;
         xp = 1;
         tier = 1;
+        name = "Mosquito";
     }
 }

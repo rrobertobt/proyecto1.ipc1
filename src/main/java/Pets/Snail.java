@@ -7,5 +7,6 @@ public class Snail extends Pet implements Insect, Solitary{
         level = 1;
         xp = 1;
         tier = 3;
+        name = "Caracol";
     }
 }

@@ -7,5 +7,6 @@ public class Snake extends Pet implements Reptile, Land, Dessert{
         level = 1;
         xp = 1;
         tier = 6;
+        name = "Serpiente";
     }
 }

@@ -7,5 +7,6 @@ public class Crocodile extends Pet implements Reptile, Solitary{
         level = 1;
         xp = 1;
         tier = 5;
+        name = "Cocodrilo";
     }
 }

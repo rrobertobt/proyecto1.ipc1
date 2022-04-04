@@ -7,5 +7,6 @@ public class Beetle extends Pet implements Insect{
         level = 1;
         xp = 1;
         tier = 1;
+        name = "Escarabajo";
     }
 }

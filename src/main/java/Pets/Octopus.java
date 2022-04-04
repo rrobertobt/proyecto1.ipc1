@@ -7,5 +7,6 @@ public class Octopus extends Pet implements Aquatic, Solitary{
         level = 1;
         xp = 1;
         tier = 6;
+        name = "Pulpo";
     }
 }

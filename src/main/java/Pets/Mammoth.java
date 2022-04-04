@@ -7,5 +7,6 @@ public class Mammoth extends Pet implements Mammal, Land, Solitary{
         level = 1;
         xp = 1;
         tier = 6;
+        name = "Mamut";
     }
 }

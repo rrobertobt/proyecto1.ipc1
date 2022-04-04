@@ -7,5 +7,6 @@ public class Scorpion extends Pet implements Solitary, Dessert{
         level = 1;
         xp = 1;
         tier = 5;
+        name = "Escorpion";
     }
 }

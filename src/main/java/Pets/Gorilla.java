@@ -7,5 +7,6 @@ public class Gorilla extends Pet implements Mammal, Land{
         level = 1;
         xp = 1;
         tier = 6;
+        name = "Gorila";
     }
 }

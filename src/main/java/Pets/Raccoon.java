@@ -7,5 +7,6 @@ public class Raccoon extends Pet implements Solitary{
         level = 1;
         xp = 1;
         tier = 3;
+        name = "Mapache";
     }
 }

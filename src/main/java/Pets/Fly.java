@@ -7,5 +7,6 @@ public class Fly extends Pet implements Flying, Insect{
         level = 1;
         xp = 1;
         tier = 6;
+        name = "Mosco";
     }
 }

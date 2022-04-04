@@ -7,6 +7,7 @@ public class Porcupine extends Pet implements Solitary, Land{
         level = 1;
         xp = 1;
         tier = 2;
+        name = "Puercoespin";
     }
 
 }

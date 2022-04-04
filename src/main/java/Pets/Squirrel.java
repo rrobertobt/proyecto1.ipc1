@@ -7,5 +7,6 @@ public class Squirrel extends Pet implements Domestic{
         level = 1;
         xp = 1;
         tier = 4;
+        name = "Ardilla";
     }
 }

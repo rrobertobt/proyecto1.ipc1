@@ -7,5 +7,6 @@ public class Seal extends Pet implements Aquatic, Mammal{
         level = 1;
         xp = 1;
         tier = 5;
+        name = "Foca";
     }
 }

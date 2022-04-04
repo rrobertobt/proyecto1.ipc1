@@ -7,5 +7,6 @@ public class Dodo extends Pet implements Flying{
         level = 1;
         xp = 1;
         tier = 2;
+        name = "Dodo";
     }
 }

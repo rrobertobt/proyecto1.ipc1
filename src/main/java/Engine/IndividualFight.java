@@ -13,7 +13,7 @@ public class IndividualFight {
 
     public Pet startFight(){
 
-        System.out.println(petA.getClass().getName()+" Fights with "+petB.getClass().getName());
+        System.out.println(petA.getClass().getSimpleName()+" fights with "+petB.getClass().getSimpleName());
 
         do {
             petA.setHp((petA.getHp() - petB.getAttack()));
@@ -36,9 +36,9 @@ public class IndividualFight {
 
     public void showWinner(){
         if (petA.getHp() > 0){
-            System.out.println("Wins "+petA.getClass().getName());
+            System.out.println("Wins "+petA.getClass().getSimpleName());
         } else if (petB.getHp() > 0) {
-            System.out.println("Wins "+petB.getClass().getName());
+            System.out.println("Wins "+petB.getClass().getSimpleName());
         } else {
             System.out.println("No winner, both died");
         }

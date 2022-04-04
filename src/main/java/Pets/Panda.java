@@ -7,5 +7,6 @@ public class Panda extends Pet implements Mammal, Solitary{
         level = 1;
         xp = 1;
         tier = 6;
+        name = "Panda";
     }
 }

@@ -7,5 +7,7 @@ public class Monkey extends Pet implements Mammal{
         level = 1;
         xp = 1;
         tier = 5;
+        name = "Mono";
+
     }
 }

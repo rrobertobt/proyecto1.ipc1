@@ -7,5 +7,7 @@ public class Camel extends Pet implements Mammal, Dessert{
         level = 1;
         xp = 1;
         tier = 3;
+        name = "Camello";
+
     }
 }

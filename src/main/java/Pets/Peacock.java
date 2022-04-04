@@ -7,5 +7,6 @@ public class Peacock extends Pet implements Domestic, Flying{
         level = 1;
         xp = 1;
         tier = 2;
+        name = "Pavo Real";
     }
 }

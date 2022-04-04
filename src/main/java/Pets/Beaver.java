@@ -8,6 +8,7 @@ public class Beaver extends Pet implements Land, Aquatic{
         level = 1;
         xp = 1;
         tier = 1;
+        name = "Castor";
 
     }
 }

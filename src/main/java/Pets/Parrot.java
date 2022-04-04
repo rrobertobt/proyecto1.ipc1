@@ -7,5 +7,6 @@ public class Parrot extends Pet implements Flying {
         level = 1;
         xp = 1;
         tier = 4;
+        name = "Loro";
     }
 }

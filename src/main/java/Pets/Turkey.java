@@ -7,5 +7,6 @@ public class Turkey extends Pet implements Land, Flying{
         level = 1;
         xp = 1;
         tier = 5;
+        name = "Pavo";
     }
 }

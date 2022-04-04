@@ -1,5 +1,5 @@
 package Engine;
-import Pets.Pet;
+import Pets.*;
 
 public class TeamsFight {
 
@@ -12,7 +12,7 @@ public class TeamsFight {
         System.out.println(teamsHavePets());
     }
 
-    public void startTeamFight() {
+    public void startTeamFight() throws CloneNotSupportedException {
 
         int indexA = 0;
         int indexB = 0;
@@ -36,7 +36,7 @@ public class TeamsFight {
 
             } else if (winnerPet.equals(avaliableA)){
 
-                System.out.println("Wins team A: "+avaliableA.getClass().getName());
+                System.out.println(String.format("Wins pet from team A: %s",avaliableA.getClass().getSimpleName()));
 //                System.out.println("avaliableA stats: "+avaliableA.getHp());
 //                System.out.println("winnerPet stats: "+winnerPet.getHp());
                 teamB[indexB] = null;
@@ -44,7 +44,7 @@ public class TeamsFight {
 
             } else if (winnerPet.equals(avaliableB)){
 
-                System.out.println("Wins team B: "+avaliableB.getClass().getName());
+                System.out.println(String.format("Wins pet from team B: %s",avaliableB.getClass().getSimpleName()));
 //                System.out.println("avaliableB stats: "+avaliableB.getHp());
 //                System.out.println("winnerPet stats: "+winnerPet.getHp());
 //                System.out.println(teamB[0].getHp());
@@ -66,10 +66,20 @@ public class TeamsFight {
         for (Pet pet: teamB) {
             System.out.print(pet+" ");
         }
+        System.out.println();
+
+        //show winner team
+        if (teamHasPets(teamA)){
+            System.out.println("Tu equipo ha ganado!");
+        } else if (teamHasPets(teamB)){
+            System.out.println("Has perdido! El equipo rival ha ganado");
+        } else {
+            System.out.println("Empate!");
+        }
 
     }
 
-    public Pet getFirstAvailablePet(Pet[] team) {
+    public Pet getFirstAvailablePet(Pet[] team) throws CloneNotSupportedException {
         Pet available = null;
 
         for (Pet pet : team) {
@@ -82,12 +92,12 @@ public class TeamsFight {
     }
 
     private boolean teamsHavePets() {
-        boolean isFirstTeamAlive = teamHavePets(teamA);
-        boolean isSecondTeamAlive = teamHavePets(teamB);
+        boolean isFirstTeamAlive = teamHasPets(teamA);
+        boolean isSecondTeamAlive = teamHasPets(teamB);
         return isFirstTeamAlive && isSecondTeamAlive;
     }
 
-    private boolean teamHavePets(Pet[] team) {
+    private boolean teamHasPets(Pet[] team) {
         boolean teamIsAlive = false;
         for (Pet pet : team) {
             if (pet != null) {

@@ -7,5 +7,6 @@ public class Rabbit extends Pet implements Mammal{
         level = 1;
         xp = 1;
         tier = 3;
+        name = "Conejo";
     }
 }

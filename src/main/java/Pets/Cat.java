@@ -7,5 +7,6 @@ public class Cat extends Pet implements Mammal, Domestic{
         level = 1;
         xp = 1;
         tier = 6;
+        name = "Gato";
     }
 }

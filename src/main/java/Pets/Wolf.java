@@ -7,5 +7,6 @@ public class Wolf extends Pet implements Solitary, Land{
         level = 1;
         xp = 1;
         tier = 3;
+        name = "Lobo";
     }
 }

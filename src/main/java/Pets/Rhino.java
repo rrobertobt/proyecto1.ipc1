@@ -7,5 +7,6 @@ public class Rhino extends Pet implements Dessert, Land{
         level = 1;
         xp = 1;
         tier = 5;
+        name = "Rinoceronte";
     }
 }

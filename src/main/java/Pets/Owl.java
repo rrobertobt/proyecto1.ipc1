@@ -7,5 +7,6 @@ public class Owl extends Pet implements Flying, Solitary{
         level = 1;
         xp = 1;
         tier = 3;
+        name = "Buho";
     }
 }

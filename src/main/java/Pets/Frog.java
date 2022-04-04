@@ -7,5 +7,6 @@ public class Frog extends Pet implements Land, Aquatic{
         level = 1;
         xp = 1;
         tier = 2;
+        name = "Rana";
     }
 }
