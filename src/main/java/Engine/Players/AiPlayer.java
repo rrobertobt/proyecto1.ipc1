@@ -12,8 +12,8 @@ public class AiPlayer {
         return aiPlayerPets;
     }
 
-    public void setAiPlayerPets(Pet[] playerPets) {
-        this.aiPlayerPets = playerPets;
+    public void setAiPlayerPets(Pet pet, int index) {
+        this.aiPlayerPets[index] = pet;
     }
 
     public int getRound() {

@@ -1,139 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="proyecto1.ipc1:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8135367-7cdc-4106-b899-a05d0a1150e7" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Engine/Players/AiPlayer.java" afterDir="false" />
+    <list default="true" id="d8135367-7cdc-4106-b899-a05d0a1150e7" name="Changes" comment="Started Arena Game / Store functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Engine/ArenaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/ArenaGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Engine/IndividualFight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/IndividualFight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/Players/CPPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/Players/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/Players/PlayerUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/Players/PlayerUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/Players/AiPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/Players/AiPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/PreFight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/PreFight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Engine/TeamsFight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/TeamsFight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Ant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Ant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Beaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Beaver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Beetle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Beetle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Camel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Camel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Chameleon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Chameleon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Cougar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Cougar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Cow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Cricket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Cricket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Crocodile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Crocodile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Deer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Deer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Dodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Dodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Dolphin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Dolphin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Elephant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Fly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Fly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Fox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Frog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Frog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Giraffe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Giraffe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Gorilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Gorilla.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Hipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Hipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Jaguar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Jaguar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Kangaroo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Kangaroo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Leopard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Leopard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Llama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Llama.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Mammoth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Mammoth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Monkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Monkey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Mosquito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Mosquito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Octopus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Octopus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Otter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Otter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Owl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Owl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Ox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Ox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Panda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Panda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Parrot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Peacock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Peacock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Porcupine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Porcupine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Quetzal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Quetzal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Rabbit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Raccoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Raccoon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Rat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Rat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Rhino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Rhino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Scorpion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Scorpion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Seal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Seal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Sheep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Snail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Snail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Spider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Squirrel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Squirrel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Turkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Turkey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Turtle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Turtle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Whale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Whale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pets/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pets/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/InputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/InputHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ArrayUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Engine/ArenaGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Engine/ArenaGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Engine/IndividualFight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Engine/IndividualFight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Engine/Players/CPPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Engine/Players/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Engine/Players/PlayerUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Engine/Players/PlayerUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Engine/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Engine/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Engine/PreFight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Engine/PreFight.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Engine/TeamsFight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Engine/TeamsFight.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Ant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Ant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Beaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Beaver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Beetle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Beetle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Camel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Camel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Chameleon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Chameleon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Cougar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Cougar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Cow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Cow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Cricket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Cricket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Crocodile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Crocodile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Deer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Deer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Dodo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Dodo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Dolphin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Dolphin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Elephant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Elephant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Fish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Fish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Fly.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Fly.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Fox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Fox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Frog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Frog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Giraffe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Giraffe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Gorilla.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Gorilla.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Hipo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Hipo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Horse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Horse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Jaguar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Jaguar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Kangaroo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Kangaroo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Leopard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Leopard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Llama.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Llama.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Mammoth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Mammoth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Monkey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Monkey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Mosquito.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Mosquito.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Octopus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Octopus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Otter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Otter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Owl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Owl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Ox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Ox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Panda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Panda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Parrot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Parrot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Peacock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Peacock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Pet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Pet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Porcupine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Porcupine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Quetzal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Quetzal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Rabbit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Rabbit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Raccoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Raccoon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Rat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Rat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Rhino.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Rhino.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Scorpion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Scorpion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Seal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Seal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Sheep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Sheep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Snail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Snail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Snake.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Spider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Squirrel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Squirrel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Tiger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Tiger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Turkey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Turkey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Turtle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Turtle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Whale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Whale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pets/Wolf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pets/Wolf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utils/InputHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/InputHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ArrayUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/ArrayUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +66,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjerciciosOOP/src/main/java/Calculator" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
@@ -221,7 +113,7 @@
       <workItem from="1648771340310" duration="649000" />
       <workItem from="1648782932232" duration="345000" />
       <workItem from="1648791959844" duration="608000" />
-      <workItem from="1648938990806" duration="32151000" />
+      <workItem from="1648938990806" duration="47445000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1648783231682</created>
@@ -230,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648783231682</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Started Arena Game / Store functionality">
+      <created>1649057992319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649057992319</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Started Arena Game / Store functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Arena Game / Store functionality" />
   </component>
 </project>

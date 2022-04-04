@@ -11,4 +11,15 @@ public class ArrayUtils {
         }
         return clonedPets;
     }
+
+    public static boolean isEmpty(Pet[] pets) {
+        boolean arrayIsEmpty = true;
+        for (Pet pet : pets) {
+            if (pet != null) {
+                arrayIsEmpty = false;
+                break;
+            }
+        }
+        return arrayIsEmpty;
+    }
 }

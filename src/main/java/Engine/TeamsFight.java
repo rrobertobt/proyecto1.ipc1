@@ -9,7 +9,6 @@ public class TeamsFight {
     public TeamsFight(Pet[] teamA, Pet[] teamB) {
         this.teamA = teamA;
         this.teamB = teamB;
-        System.out.println(teamsHavePets());
     }
 
     public void startTeamFight() throws CloneNotSupportedException {
@@ -32,22 +31,17 @@ public class TeamsFight {
                 indexA += 1;
                 teamB[indexB] = null;
                 indexB += 1;
-                System.out.println("Draw");
+//                System.out.println("Draw");
 
             } else if (winnerPet.equals(avaliableA)){
 
-                System.out.println(String.format("Wins pet from team A: %s",avaliableA.getClass().getSimpleName()));
-//                System.out.println("avaliableA stats: "+avaliableA.getHp());
-//                System.out.println("winnerPet stats: "+winnerPet.getHp());
+                System.out.println(String.format("Ha ganado la mascota del equipo A: %s",avaliableA.getClass().getSimpleName()));
                 teamB[indexB] = null;
                 indexB += 1;
 
             } else if (winnerPet.equals(avaliableB)){
 
-                System.out.println(String.format("Wins pet from team B: %s",avaliableB.getClass().getSimpleName()));
-//                System.out.println("avaliableB stats: "+avaliableB.getHp());
-//                System.out.println("winnerPet stats: "+winnerPet.getHp());
-//                System.out.println(teamB[0].getHp());
+                System.out.println(String.format("Ha ganado la mascota del equipo B: %s",avaliableB.getClass().getSimpleName()));
                 teamA[indexA] = null;
                 indexA += 1;
 
@@ -55,27 +49,7 @@ public class TeamsFight {
 
         } while (teamsHavePets());
 
-        // tmp - shows both teams
-        System.out.println("\nTeams left:");
-        System.out.println("Team A:");
-        for (Pet pet: teamA) {
-            System.out.print(pet+" ");
-        }
-        System.out.println();
-        System.out.println("Team B:");
-        for (Pet pet: teamB) {
-            System.out.print(pet+" ");
-        }
-        System.out.println();
-
-        //show winner team
-        if (teamHasPets(teamA)){
-            System.out.println("Tu equipo ha ganado!");
-        } else if (teamHasPets(teamB)){
-            System.out.println("Has perdido! El equipo rival ha ganado");
-        } else {
-            System.out.println("Empate!");
-        }
+        showFinalStats();
 
     }
 
@@ -106,6 +80,47 @@ public class TeamsFight {
             }
         }
         return teamIsAlive;
+    }
+
+    private void showFinalStats(){
+        int leftPets = 0;
+        Pet[] winnerTeam = null;
+        //show winner team
+        if (teamHasPets(teamA)){
+            System.out.println("El equipo A ha ganado esta ronda!");
+            winnerTeam = teamA;
+        } else if (teamHasPets(teamB)){
+            System.out.println("El equipo B ha ganado esta ronda!");
+            winnerTeam = teamB;
+        } else {
+            System.out.println("Empate!");
+        }
+
+        if (winnerTeam == teamA){
+            for (Pet pet:winnerTeam) {
+                if (pet != null){leftPets += 1;}
+            }
+            System.out.println(String.format("En el equipo ganador A han sobrevivido %s mascotas:",leftPets));
+
+            for (Pet pet : winnerTeam) {
+                if (pet != null) {
+                    System.out.println(String.format("Animal: %s | Ataque: %s | Vida: %s", pet.getName(), pet.getAttack(), pet.getHp()));
+                }
+            }
+        } else if (winnerTeam == teamB){
+            for (Pet pet:winnerTeam) {
+                if (pet != null){leftPets += 1;}
+            }
+            System.out.println(String.format("En el equipo ganador B han sobrevivido %s mascotas:",leftPets));
+
+            for (Pet pet : winnerTeam) {
+                if (pet != null) {
+                    System.out.println(String.format("Animal: %s | Ataque: %s | Vida: %s", pet.getName(), pet.getAttack(), pet.getHp()));
+                }
+            }
+
+        }
+
     }
 
 }
