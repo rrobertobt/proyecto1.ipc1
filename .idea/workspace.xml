@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8135367-7cdc-4106-b899-a05d0a1150e7" name="Changes" comment="Demo battles added">
-      <change beforePath="$PROJECT_DIR$/out/artifacts/proyecto1_ipc1_jar/proyecto1.ipc1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/proyecto1_ipc1_jar/proyecto1.ipc1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +99,7 @@
       <workItem from="1648782932232" duration="345000" />
       <workItem from="1648791959844" duration="608000" />
       <workItem from="1648938990806" duration="47696000" />
+      <workItem from="1649100762471" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1648783231682</created>
