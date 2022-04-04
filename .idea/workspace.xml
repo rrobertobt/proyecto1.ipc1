@@ -9,23 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8135367-7cdc-4106-b899-a05d0a1150e7" name="Changes" comment="Started Arena Game / Store functionality">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/ArenaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/ArenaGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/IndividualFight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/IndividualFight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/Players/AiPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/Players/AiPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/PreFight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/PreFight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/TeamsFight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/TeamsFight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ArrayUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Engine/ArenaGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Engine/ArenaGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Engine/IndividualFight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Engine/IndividualFight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Engine/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Engine/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Engine/PreFight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Engine/PreFight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Engine/TeamsFight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Engine/TeamsFight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ArrayUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/ArrayUtils.class" afterDir="false" />
+    <list default="true" id="d8135367-7cdc-4106-b899-a05d0a1150e7" name="Changes" comment="Demo battles added">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/proyecto1_ipc1_jar/proyecto1.ipc1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/proyecto1_ipc1_jar/proyecto1.ipc1.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +98,7 @@
       <workItem from="1648771340310" duration="649000" />
       <workItem from="1648782932232" duration="345000" />
       <workItem from="1648791959844" duration="608000" />
-      <workItem from="1648938990806" duration="47445000" />
+      <workItem from="1648938990806" duration="47696000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1648783231682</created>
@@ -129,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649057992319</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Demo battles added">
+      <created>1649099292790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649099292790</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +142,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Started Arena Game / Store functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started Arena Game / Store functionality" />
+    <MESSAGE value="Demo battles added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo battles added" />
   </component>
 </project>
